@@ -1,0 +1,16 @@
+:root {
+  --padding-pc: 30px 10px;
+  --padding-lg: 50px 10px;
+
+  /* FONT */
+  --title-size-mb: 1.6rem;
+  --subtitle-size-mb: 0.9rem;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+body {
+  background-color: var(--col-bk);
+}

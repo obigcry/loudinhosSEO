@@ -1,0 +1,21 @@
+.header-bg {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 40px 10px;
+  background-color: var(--col-bk);
+  border-bottom: 1px solid var(--col-bk3);
+}
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.header-conteudo img {
+  max-width: 72px;
+  max-height: 72px;
+  filter: grayscale(100%);
+}

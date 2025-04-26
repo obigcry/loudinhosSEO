@@ -1,0 +1,28 @@
+.resultado-bg {
+  height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: none;
+}
+.resultado-container {
+  max-width: 1024px;
+  background-color: var(--col-bk3);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.resultado-conteudo {
+  display: grid;
+  padding: 20px;
+}
+.resultado-conteudo > img {
+  margin-top: 10px;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .resultado-bg {
+    width: 100vw;
+    padding: 20px 10px;
+  }
+}
