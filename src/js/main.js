@@ -1,4 +1,4 @@
-//  TODOS OS LINKS ABREM EM OUTRA ABA
+//  Todos os links abrem em outra aba
 const links = document.querySelectorAll(".link");
 links.forEach(function (link) {
   link.setAttribute("target", "_blank");
@@ -53,7 +53,6 @@ window.addEventListener("resize", () => {
 });
 
 // ESCOLHA DO CARD
-// RESULTADO AO CLICAR EM GERAR
 let jogoEscolhido = ""; // Vai guardar o nome do jogo
 let mensagemGerada = ""; // Vai guardar o texto do SEO gerado
 
@@ -81,7 +80,7 @@ function gerarMensagem(jogo) {
     INFLUENCERS:
       "#loud #loudgg #twitch #twitchstreamer #twitchtv #youtube #youtubestream #stream #livestream",
     GERAL:
-      "#valorant #vlr #vctamericas #vct #valorantchampions #valorantchampionstour #loud #loudgg #riot #riotgames #CBLOL #CBLOLACADEMY #LEAGUEOFLEGENDS #LOL #RIOT #RIOTGAMES #ff #freefire #freefirebrasil #ffbrasil #garena #garenabrasil #garenafreefire #garenaoficial #esports #loud #loudgg",
+      "#KINGSLEAGUE #valorant #vlr #vctamericas #vct #valorantchampions #valorantchampionstour #loud #loudgg #riot #riotgames #CBLOL #CBLOLACADEMY #LEAGUEOFLEGENDS #LOL #RIOT #RIOTGAMES #ff #freefire #freefirebrasil #ffbrasil #garena #garenabrasil #garenafreefire #garenaoficial #esports #loud #loudgg",
   };
 
   return mensagens[jogo.toUpperCase()] || "Escolha não reconhecida.";

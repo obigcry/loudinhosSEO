@@ -3,7 +3,7 @@ footer {
   height: auto;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 40px 10px;
+  padding: var(--padding-lg);
   margin-top: 20px;
   background-color: var(--col-bk);
   border-top: 1px solid var(--col-bk3);

@@ -11,6 +11,6 @@
   box-sizing: border-box;
   justify-content: center;
   background-color: var(--col-green);
-  padding: 20px;
+  padding: var(--padding-default);
   cursor: pointer;
 }

@@ -2,7 +2,7 @@
   width: 100vw;
   height: auto;
   overflow: hidden;
-  padding: 20px 10px;
+  padding: var(--padding-pc);
 }
 .slider-container {
   position: relative;
@@ -80,7 +80,7 @@
 @media (max-width: 600px) {
   .card {
     min-width: 50%; /* 4 cards visíveis */
-    height: 340px;
+    max-height: 340px;
     cursor: pointer;
   }
   .card-img {
