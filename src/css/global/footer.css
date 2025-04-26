@@ -1,11 +1,15 @@
 footer {
-  grid-area: footer;
-  padding: var(--padding-pc);
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 40px 10px;
+  margin-top: 20px;
   background-color: var(--col-bk);
   border-top: 1px solid var(--col-bk3);
 }
 .footer-container {
-  max-width: 1024px;
+  max-width: 1000px;
   margin: 20px auto;
 }
 .footer-conteudo {
@@ -25,7 +29,10 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
+  .footer-bg {
+    padding: 20px;
+  }
   .footer-container {
     margin: 0 auto;
   }

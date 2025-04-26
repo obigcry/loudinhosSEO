@@ -3,9 +3,7 @@
   --col-bk2: #0f0f0f;
   --col-bk3: #202124;
   --col-cz: #bcbcbc;
-  --col-cz2: #a1a0a3;
   --col-wh: #ffffff;
-  --col-red: #fb0025;
   --col-green: #06be2e;
 }
 
@@ -23,9 +21,6 @@
 }
 .col-wh {
   color: var(--col-wh);
-}
-.col-red {
-  color: var(--col-red);
 }
 .col-green {
   color: var(--col-green);

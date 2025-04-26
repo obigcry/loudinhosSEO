@@ -19,3 +19,14 @@
   max-height: 72px;
   filter: grayscale(100%);
 }
+
+@media (max-width: 600px) {
+  .header-bg {
+    padding: 20px;
+  }
+
+  .header-conteudo img {
+    max-width: 48px;
+    max-height: 48px;
+  }
+}
