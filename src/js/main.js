@@ -122,10 +122,3 @@ resultadoConteudo.addEventListener("click", () => {
       });
   }
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-  const resultadoConteudo = document.querySelector(".resultado-conteudo");
-  if (resultadoConteudo) {
-    resultadoConteudo.textContent = "Clique para copiar!";
-  }
-});
