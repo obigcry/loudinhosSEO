@@ -71,11 +71,11 @@ function gerarMensagem(jogo) {
   let mensagens = {
     "FREE FIRE":
       "#ff #FFWSBR #freefire #freefirebrasil #ffbrasil #garena #garenabrasil #garenafreefire #garenaoficial #esports #loud #loudgg",
-    LOL: "#CBLOL #CBLOLACADEMY #LEAGUEOFLEGENDS #LOL #RIOT #RIOTGAMES #ESPORTS #loud #loudgg",
+    LOL: "#LTASul #LEAGUEOFLEGENDS #LOL #RIOT #RIOTGAMES #ESPORTS #loud #loudgg",
     VALORANT:
       "#valorant #vlr #vctamericas #vct #valorantchampions #valorantchampionstour #loud #loudgg #riot #riotgames #esports",
-    "BRAWL STARS": "#FINAISMENSAIS #BRAWLCUP",
-    R6: "Você escolheu Rainbow Six! Estratégia é tudo!",
+    "BRAWL STARS": "#FINAISMENSAIS #BRAWLCUP #BRAWLSTARS #LOUDBRAWL",
+    R6: "#R6 #rainbow #rainbowsix #ubisoft",
     FORTNITE: "#FNCS #fortnitebr #fortniteps #epicgames",
     INFLUENCERS:
       "#loud #loudgg #twitch #twitchstreamer #twitchtv #youtube #youtubestream #stream #livestream",
@@ -120,5 +120,12 @@ resultadoConteudo.addEventListener("click", () => {
       .catch((err) => {
         console.error("Erro ao copiar texto: ", err);
       });
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const resultadoConteudo = document.querySelector(".resultado-conteudo");
+  if (resultadoConteudo) {
+    resultadoConteudo.textContent = "Clique para copiar!";
   }
 });
