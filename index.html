@@ -5,12 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Site da Loudinhos para gerar SEO automaticamente.">
-  <link rel="stylesheet" href="./src/css/style.css">
   <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/style.css">
   <title>LOUDinhos SEO</title>
 </head>
 
 <body>
+  <div id="loading">
+    <div class="zoom">
+      <img src="./src/assets/img/logo_loudinhos.webp" alt="logo loudinhos">
+    </div>
+  </div>
 
   <header class="header-bg" role="banner">
     <div class="header-container">
@@ -22,7 +27,7 @@
     </div>
   </header>
 
-  <main id="main-content" role="main">
+  <main id="main-content site-content" role="main">
     <section class="cards-bg" aria-labelledby="selecao-de-jogos">
       <h2 id="selecao-de-jogos" class="visually-hidden">Seleção de Jogos</h2>
 
@@ -170,9 +175,9 @@
       </div>
     </div>
   </footer>
-
-  <script src="./src/js/cards.js"></script>
   <script src="./src/js/main.js"></script>
+  <script src="./src/js/cards.js"></script>
+  <script src="./src/js/loading.js"></script>
 </body>
 
 </html>
